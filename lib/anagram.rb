@@ -14,8 +14,6 @@ class Anagram
       if word.split("").sort == @word.split("").sort
         value << word
         p value
-      else
-        value = [ ]
       end
     end
   end
