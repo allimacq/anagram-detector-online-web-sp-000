@@ -7,18 +7,17 @@ class Anagram
   end
   
   def match(words)
-    value = " "
     words.each do |word|
       #p word.split("").sort
       #p @word.split("").sort
       if word.split("").sort == @word.split("").sort
-        value = word
-        p value
+        @word = word
+        p @word
       else
         value = [ ]
       end
     end
-    p value
+    p "#{@word} return"
   end
   
 end
