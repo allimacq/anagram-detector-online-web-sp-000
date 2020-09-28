@@ -11,9 +11,10 @@ class Anagram
       #p word.split("").sort
       #p @word.split("").sort
       if word.split("").sort == @word.split("").sort
-        p word
-      #else
-       # p [ ]
+        value = word
+        p value
+      else
+        p [ ]
       end
     end
   end
