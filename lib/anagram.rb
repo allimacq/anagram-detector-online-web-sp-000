@@ -7,6 +7,7 @@ class Anagram
   end
   
   def match(words)
+    value = " "
     words.each do |word|
       #p word.split("").sort
       #p @word.split("").sort
