@@ -15,6 +15,7 @@ class Anagram
         value << word
         p value
       end
+      value
     end
   end
   
