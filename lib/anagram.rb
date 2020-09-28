@@ -17,6 +17,7 @@ class Anagram
         p [ ]
       end
     end
+    p value
   end
   
 end
