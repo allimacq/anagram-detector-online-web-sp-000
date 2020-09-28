@@ -18,7 +18,6 @@ class Anagram
         value = [ ]
       end
     end
-    p "#{value} return"
   end
   
 end
