@@ -13,7 +13,7 @@ class Anagram
       #p @word.split("").sort
       if word.split("").sort == @word.split("").sort
         value = word
-        #p value
+        p value
       else
         value = [ ]
       end
