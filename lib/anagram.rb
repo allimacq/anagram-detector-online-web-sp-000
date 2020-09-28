@@ -13,6 +13,7 @@ class Anagram
       else
         p [ ]
       end
+    end
   end
   
 end
